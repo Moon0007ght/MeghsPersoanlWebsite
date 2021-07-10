@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #40514E;
+}
+
+h2 {
+  color: #41AEA9;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #41AEA9;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #E8FFFF;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 200px;
+  min-width: 1100px;
+  height: auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 15px 0 1px;
+}
+
+.myName {
+  margin: 0 auto;
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  font-size: 2.1875rem;
+  color: #213E3B;
+  font-weight: normal;
+}
+
+.myProfession {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  font-size: 1.25rem;
+  color: #213E3B;
+  font-weight: normal;
+}
+
+.earth {
+  height: 18.75rem;
+  width: 25rem;
+  margin: auto;
+}
+
+.rocket {
+  height: 3.125rem;
+  width: 3.125rem;
+  position: absolute;
+  /* left: 350px;
+  top: 220px; */
+  left: 32.5%;
+  top: 43%;
+}
+
+.spaceship {
+  height: 4.6875rem;
+  width: 4.6875rem;
+  position: absolute;
+  /* right: 350px;
+  top: 200px; */
+  right: 32.5%;
+  top: 39%;
+}
+
+.spaceship2 {
+  height: 3.75rem;
+  width: 3.75rem;
+  position: absolute;
+  /* top: 100px;
+  left: 250px; */
+  top: 19.5%;
+  left: 23.2%;
+}
+
+.sun {
+  height: 6.25rem;
+  width: 6.25rem;
+  position: absolute;
+  /* right: 250px;
+  top: 25px; */
+  top: 5%;
+  right: 23.2%;
+}
+
+.mars {
+  height: 6.25rem;
+  width: 6.25rem;
+  position: absolute;
+  /* right: 100px;
+  top: 175px; */
+  top: 34.2%;
+  right: 9.3%;
+}
+
+.asteroid {
+  height: 3.125rem;
+  width: 4.375rem;
+  position: absolute;
+  /* right: 100px;
+  top: 50px; */
+  top: 9.8%;
+  right: 9.3%;
+}
+
+.saturn {
+  height: 4.6875rem;
+  width: 10.9375rem;
+  position: absolute;
+  /* left: 50px;
+  top: 200px; */
+  top: 39%;
+  left: 4.6%;
+}
+
+.blue-planet {
+  height: 4.6875rem;
+  width: 4.6875rem;
+  position: absolute;
+  /* left: 75px;
+  top: 25px; */
+  top: 5%;
+  left: 7%;
+}
+
+.satellite {
+  height: 1.875rem;
+  width: 3.75rem;
+  position: absolute;
+  /* left: 425px;
+  top: 150px; */
+  left: 39.5%;
+  top: 29.3%;
+}
+
+.space-station {
+  height: 3.125rem;
+  width: 3.125rem;
+  position: absolute;
+  /* right: 450px;
+  top: 135px; */
+  top: 27.5%;
+  right: 41.8%;
+}
+
+.myImage {
+  margin-top: 6%;
+  width: 10.9375rem;
+  height: 10.9375rem;
+}
+
+.engineering {
+  width: 10rem;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.programming {
+  width: 10rem;
+  float: right;
+  margin-left: 30px;
+}
+
+.physics {
+  width: 10rem;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+
+.discription {
+  margin: 0;
+}
+
+.skills-heading {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.my-skills {
+  margin-top: 30px;
+}
+
+hr {
+  border: dotted #213E3B;
+  border-bottom: none;
+  width: 5%
+}
+
+.my-intro {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 75px;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.copy-right {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
